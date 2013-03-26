@@ -14,8 +14,11 @@ start executable DummyApplication       --local
 
 wait for connected
 
-load parameterfile ../parms/gUSBamp-Cap16.prm
+#load parameterfile ../parms/gUSBamp-Cap16.prm
+ load parameterfile ../parms/gUSBampsAAAA-Cap64.prm
 
+set parameter AcquisitionMode 2
 
 setconfig
-set state Running 1
+
+#set state Running 1
